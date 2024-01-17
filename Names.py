@@ -32,7 +32,12 @@ def check_input(input_string):
             # This raise condition is activated int event of invalid charter being tyoed in a name
             raise SpecialCharacterError(f"Special character '{character}' is not allowed.")
 def main():
+    # The while true loop allows the program to continously run until a condtion is met to end the program
     while True: 
+        # The 'try' statement is used for exception handling in Python. 
+        # It allows us to write code that might raise an exception in a 'try' block.
+        # If an exception occurs, the code in the 'try' block stops executing, and the code in the 'except' block runs.
+        # If no exception occurs, the 'except' block is skipped.
         try:
             # this tell the user what enter and how to enter numbers
             user_input_line1 = input('Write your first name here (use Roman numerals to indicate numbers): ')

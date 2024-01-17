@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IN501_Unit9_James_A_Boeck",
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Names", "..\Names\Names.pyproj", "{7E5C5B2B-32F6-4AD6-A772-47C024BE727F}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Search", "..\Search\Search.pyproj", "{46E9BD55-F6D5-46F6-818E-224E5103E312}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{FEED6BB7-3E16-4A5B-AC02-3349B1020BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E5C5B2B-32F6-4AD6-A772-47C024BE727F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E5C5B2B-32F6-4AD6-A772-47C024BE727F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E9BD55-F6D5-46F6-818E-224E5103E312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E9BD55-F6D5-46F6-818E-224E5103E312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

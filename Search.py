@@ -15,9 +15,9 @@ def user_search(file_name, keyword):
     if not found:
         #This prints a this messag if no results are found
         print('Sorry, no results found')
-#Def Main the main fuction        
+#Def Main defines the main fuction of the program       
 def main():
-    #Check make sure the answer is true
+    ## The while true loop allows the program to continously run until a condtion is met to end the program
     while True:
         # Prints to the user what to do
         user_answer = input('Would like to conduct a search Yes or No: ' )
